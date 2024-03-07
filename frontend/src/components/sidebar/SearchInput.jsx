@@ -34,7 +34,7 @@ const SearchInput = () => {
       <input
         type='text'
         placeholder='Search...'
-        className='input input-bordered rounded-full'
+        className='input input-bordered rounded-full sm:w-auto w-0'
         value={search}
         onChange={(e) => setSeacrh(e.target.value)}
       />
